@@ -22,7 +22,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex">
+      <div className="justify-items-center content-center">
         <Image
           src="/carte.jpg"
           width={500}

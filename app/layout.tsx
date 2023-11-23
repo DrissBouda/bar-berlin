@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -21,7 +22,12 @@ export default function RootLayout({
         <div className="navbar bg-base-100">
           <div className="flex-1">
             <Link href="/" className="btn btn-ghost text-xl">
-              Bar Berlin
+              <Image
+                width={200}
+                height={200}
+                alt="Bar Berlin"
+                src={"/banner.jpeg"}
+              />
             </Link>
           </div>
           <div className="flex-none">
@@ -31,9 +37,6 @@ export default function RootLayout({
               </li>
               <li>
                 <Link href="/impressum">Impressum</Link>
-              </li>
-              <li>
-                <Link href="/team">Unser Team</Link>
               </li>
             </ul>
           </div>
