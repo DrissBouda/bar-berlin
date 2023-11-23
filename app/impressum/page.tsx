@@ -1,4 +1,4 @@
-export default function Speisekarte() {
+export default function Impressum() {
   return (
     <div className="mockup-window border border-base-300 m-5">
       <div className="px-4 py-16 border-t border-base-300">

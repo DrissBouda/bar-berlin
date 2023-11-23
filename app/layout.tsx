@@ -27,47 +27,18 @@ export default function RootLayout({
           <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Unser Team</a>
+                <Link href="/">Startseite</Link>
               </li>
               <li>
-                <details>
-                  <summary>Parent</summary>
-                  <ul className="p-2 bg-base-100">
-                    <li>
-                      <a>Link 1</a>
-                    </li>
-                    <li>
-                      <a>Link 2</a>
-                    </li>
-                  </ul>
-                </details>
+                <Link href="/impressum">Impressum</Link>
+              </li>
+              <li>
+                <Link href="/team">Unser Team</Link>
               </li>
             </ul>
           </div>
         </div>
         {children}
-        <footer className="footer p-10 bg-neutral text-neutral-content">
-          <nav>
-            <header className="footer-title">Services</header>
-            <a className="link link-hover">Branding</a>
-            <a className="link link-hover">Design</a>
-            <a className="link link-hover">Marketing</a>
-            <a className="link link-hover">Advertisement</a>
-          </nav>
-          <nav>
-            <header className="footer-title">Company</header>
-            <a className="link link-hover">About us</a>
-            <a className="link link-hover">Contact</a>
-            <a className="link link-hover">Jobs</a>
-            <a className="link link-hover">Press kit</a>
-          </nav>
-          <nav>
-            <header className="footer-title">Legal</header>
-            <a className="link link-hover">Terms of use</a>
-            <a className="link link-hover">Privacy policy</a>
-            <a className="link link-hover">Cookie policy</a>
-          </nav>
-        </footer>
       </body>
     </html>
   );
