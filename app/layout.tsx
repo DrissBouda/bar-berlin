@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html data-theme="light" lang="en">
+    <html data-theme="forest" lang="en">
       <body className={inter.className}>
         <div className="navbar bg-base-100">
           <div className="flex-1">
