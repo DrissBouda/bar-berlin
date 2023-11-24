@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div>
           <div className="navbar bg-base-100">
-            <div className="flex-1">
+            <div className="flex-auto">
               <Link href="/" className="btn btn-ghost text-xl">
                 <Image
                   width={200}
@@ -39,7 +39,7 @@ export default function RootLayout({
               </ul>
             </div>
           </div>
-          <div className="mockup-window border bg-base-300 m-5">{children}</div>
+          <div className="mockup-window border bg-base-300 m-1">{children}</div>
         </div>
       </body>
     </html>
