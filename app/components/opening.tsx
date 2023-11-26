@@ -3,7 +3,7 @@ export default function Opening() {
   return (
     <>
       <div className="flex flex-col w-full">
-        <div className="divider">Öffnungszeiten - Horario - Opening Hours</div>
+        <div className="divider">Öffnungszeiten</div>
       </div>
       <div className="m-4 text-xs flex justify-center md:text-xs md:flex-2">
         <div className="m-2">
