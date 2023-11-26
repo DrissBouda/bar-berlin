@@ -16,10 +16,7 @@ export default function Opening() {
             />
           </h2>
           <p>
-            <strong>Montag:</strong> Ruhetag
-          </p>
-          <p>
-            <strong>Dienstag bis Freitag:</strong> ab 17 Uhr
+            <strong>Montag bis Freitag:</strong> ab 17 Uhr
           </p>
           <p>
             <strong>Samstag und Sonntag:</strong> ab 12 Uhr
@@ -33,10 +30,7 @@ export default function Opening() {
             alt="lang"
           />
           <p>
-            <strong>Lunes:</strong> día libre
-          </p>
-          <p>
-            <strong>Martes a viernes:</strong> a las 17 h
+            <strong>Lunes a viernes:</strong> a las 17 h
           </p>
           <p>
             <strong>Sábado y domingo:</strong> de las 12
@@ -50,10 +44,7 @@ export default function Opening() {
             alt="lang"
           />
           <p>
-            <strong>Monday:</strong> rest day
-          </p>
-          <p>
-            <strong>Tuesday to Friday:</strong> from 17 h
+            <strong>Monday to Friday:</strong> from 17 h
           </p>
           <p>
             <strong>Saturday and Sunday:</strong> from 12 h
