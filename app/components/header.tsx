@@ -30,7 +30,7 @@ export default function Header() {
               </svg>
             </label>
           </div>
-          <div className="drawer-side z-[1]">
+          <div className="drawer-side z-[1] drawer-overlay">
             <div className="z-[2]">
               <label
                 className="btn btn-circle drawer-overlay"
