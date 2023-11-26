@@ -61,7 +61,7 @@ export default function Header() {
                 width={200}
                 height={200}
                 alt="Bar Berlin"
-                src={"/banner.jpeg"}
+                src={"/banner2.jpg"}
                 className="mb-4"
               />
               {/* Sidebar content here */}
