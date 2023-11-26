@@ -10,11 +10,13 @@ export default function Home() {
           height: 450,
         }}
       >
-        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-overlay bg-opacity-50"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Bar Berlin Teneriffa</h1>
-            <p className="mb-5">
+            <h1 className="mb-5 text-5xl font-bold text-warning shadow-md bar-berlin">
+              Bar Berlin Teneriffa Meets Sylt
+            </h1>
+            <p className="mb-5 bar-berlin">
               Playa Salytien, Lokal Nr. 17 38660 Playa de Las Americas, Adeje
               Santa Cruz de Tenerife +34 922 787 188
             </p>
@@ -50,7 +52,7 @@ export default function Home() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Unser Programm
+                  Unseres Programm
                 </button>
               </Link>
             </div>

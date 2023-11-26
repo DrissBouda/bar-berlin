@@ -14,3 +14,7 @@ body {
   --background-end-rgb: 255, 255, 255;
   --value: 99;
 }
+
+.bar-berlin {
+  text-shadow: 1px 1px 1px #000;
+}

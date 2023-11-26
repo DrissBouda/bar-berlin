@@ -1,10 +1,10 @@
 export default function Speisekarte() {
   return (
-    <div className="p-4 border-t border-base-300">
+    <div className="p-4 flex-1 justify-center border-t border-base-300">
       <div className="text-2xl py-4">
-        <h3>Auszug aus unserer Speisekarte</h3>
+        <h1>Auszug aus unserer Speisekarte</h1>
       </div>
-      <ul>
+      <ul className="list-disc pl-3">
         <li>Bunte Blattsalate</li>
         <li>Currywurst mit scharfen Zwiebeln und Pommes</li>
         <li>Bratwurst mit lecker Kartoffelsalat</li>
