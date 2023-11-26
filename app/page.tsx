@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Opening from "./components/opening";
 
 export default function Home() {
   return (
@@ -34,7 +33,9 @@ export default function Home() {
               </button>
             </Link>
             <div className="indicator">
-              <span className="indicator-item badge badge-error">Neu</span>
+              <span className="indicator-item badge badge-error text-white">
+                Neu
+              </span>
               <Link href="/programm">
                 <button className="btn btn-dark">
                   <svg
