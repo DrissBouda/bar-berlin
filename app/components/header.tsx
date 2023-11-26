@@ -48,12 +48,21 @@ export default function Header() {
                 </svg>
               </label>
             </div>
-            <label
-              htmlFor="my-drawer-4"
-              aria-label="close sidebar"
-              className="drawer-overlay"
-            ></label>
-
+            <div>
+              <label
+                htmlFor="my-drawer-4"
+                aria-label="close sidebar"
+                className="drawer-overlay"
+              ></label>
+            </div>
+            <Link href="/" className="btn btn-ghost text-xl p-0">
+              <Image
+                width={200}
+                height={200}
+                alt="Bar Berlin"
+                src={"/banner.jpeg"}
+              />
+            </Link>
             <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
               {/* Sidebar content here */}
               <li>
