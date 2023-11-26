@@ -31,6 +31,11 @@ export default function Header() {
             </label>
           </div>
           <div className="drawer-side z-[1] drawer-overlay">
+            <label
+              htmlFor="my-drawer-4"
+              aria-label="close sidebar"
+              className="drawer-overlay"
+            ></label>
             <div className="z-[2]">
               <label
                 className="btn btn-circle drawer-overlay"
