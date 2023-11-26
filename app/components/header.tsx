@@ -14,7 +14,20 @@ export default function Header() {
         </Link>
       </div>
       <div className="flex-none">
-        <div className="drawer drawer-end">
+        <div className="hidden">
+          <ul className="menu menu-horizontal bg-base-200">
+            <li>
+              <a>Startseite</a>
+            </li>
+            <li>
+              <a>Reservieren</a>
+            </li>
+            <li>
+              <a>Impressum</a>
+            </li>
+          </ul>
+        </div>
+        <div className="drawer drawer-end md:hidden">
           <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
             {/* Page content here */}
