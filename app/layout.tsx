@@ -21,9 +21,9 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.png" sizes="any" />
       </head>
       <body>
-        <div className="md:mx-40 sm:mx-0 xs:mx-40">
+        <div className="lg:px-20">
           <Header />
-          <div className="mockup-window border bg-base-300 m-1">
+          <div className="mockup-window border bg-base-50 m-1">
             {children}
             <Opening />
             <Footer />
