@@ -23,7 +23,7 @@ export default function RootLayout({
       <body>
         <div className="lg:px-20">
           <Header />
-          <div className="mockup-window border bg-base-50 m-1">
+          <div className="mockup-window border border-transparent bg-base-50 m-1">
             {children}
             <Opening />
             <Footer />
